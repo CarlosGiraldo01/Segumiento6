@@ -1,0 +1,33 @@
+body {
+font-family: sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+#createPost {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.cuadro {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 100px;
+    height: 200px;
+    width: 100px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+.cuadro-imagen {
+    padding-left: 20%;
+    padding-right: 20%;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+  }
