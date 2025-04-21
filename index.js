@@ -14,10 +14,12 @@ for(let index =1; index <= 826; index++) {
 
             const nombre = document.createElement("nombre");
             nombre.innerText = `Character# ${index}`;
+            nombre.classList.add("texto-nombre")
             div.append(nombre);
 
             const texto = document.createElement("texto");
             texto.innerText = `Esta es mi publicación número ${index}`;
+            texto.classList.add("texto")
             div.append(texto);
 
             createPost.append(div);
