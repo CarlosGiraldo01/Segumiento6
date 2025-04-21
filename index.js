@@ -18,8 +18,8 @@ for(let index =1; index <= 826; index++) {
             div.append(nombre);
 
             const texto = document.createElement("texto");
-            texto.innerText = `Esta es mi publicación número ${index}`;
-            texto.classList.add("texto")
+            texto.innerText = `Esta es mi publicación número ${index} esto es una prueba de generación de relleno`;
+            texto.classList.add("texto-parrafo")
             div.append(texto);
 
             createPost.append(div);
